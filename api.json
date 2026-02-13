@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/hantu-air",
     "maintainers": [
       {
@@ -18,935 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "hantu-air",
     "name": "Hantu Air",
-    "aliases": [
-      {
-        "name": "Hantu Sungai",
-        "language": "Malay",
-        "region": "Malaysia",
-        "meaning": "river ghost"
-      },
-      {
-        "name": "Hantu Tasik",
-        "language": "Malay",
-        "region": "Malaysia",
-        "meaning": "lake ghost"
-      },
-      {
-        "name": "Hantu Kolam",
-        "language": "Malay",
-        "region": "Malaysia",
-        "meaning": "pond ghost"
-      },
-      {
-        "name": "Hantu Perempuan Air",
-        "language": "Malay",
-        "region": "Malaysia",
-        "meaning": "female water spirit"
-      },
-      {
-        "name": "Orang Bunian Air",
-        "language": "Malay",
-        "region": "Malaysia",
-        "meaning": "water dimension being"
-      }
-    ],
+    "aliases": [],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Water Spirit",
+    "subcategory": "| Description | Status |",
     "tags": [
-      "malaysian-folklore",
-      "water-spirit",
-      "shapeshifter",
-      "drowning",
-      "river-guardian",
-      "female-spirit",
-      "islamic-jinn",
-      "predatory"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "A malevolent water spirit from Malaysian folklore that inhabits rivers, lakes, and ponds. Appears as a beautiful woman or elderly person to lure victims into drowning, while possessing the ability to control water and cause floods.",
-      "full": "Hantu Air (water ghost) is one of the most feared aquatic entities in Malaysian supernatural tradition. This water spirit inhabits freshwater bodies including rivers, lakes, ponds, and waterfalls throughout Malaysia and Indonesia. The entity is characterized by its shapeshifting ability, most commonly appearing as an exceptionally beautiful woman to lure unsuspecting victims to their deaths by drowning. In its true form, it manifests as a grotesque, waterlogged corpse with greenish-gray skin and long, matted hair filled with aquatic vegetation. Hantu Air is believed to possess supernatural control over water, capable of creating whirlpools, currents, and floods to trap victims. Within Islamic-Malay cosmology, it is often classified as a type of jinn that has chosen water as its domain. The entity is particularly dangerous to children, lone swimmers, and those who disrespect water bodies. Traditional belief holds that each body of water has its own guardian spirit, and Hantu Air represents the malevolent aspect of these guardians, demanding respect and occasionally claiming lives as tribute."
+      "summary": "Hantu Air (literally \\\"water ghost\\\") represents a category of supernatural entities inhabiting rivers, lakes, and bodies of water throughout Malaysia and the broader Malay-Indonesian cultural sphere.",
+      "full": "Hantu Air (literally \\\"water ghost\\\") represents a category of supernatural entities inhabiting rivers, lakes, and bodies of water throughout Malaysia and the broader Malay-Indonesian cultural sphere. These water spirits serve as both territorial guardians and malevolent predators, manifesting most commonly as beautiful women to lure unsuspecting victims—particularly men—to drowning deaths. Within traditional Malay cosmology, Hantu Air functions as the spiritual custodian of aquatic domains, capable of controlling currents, causing floods, creating whirlpools, and preventing swimmers from reaching safety. The spirits embody water's dual nature: life-giving yet treacherous, essential yet deadly. They demand respect through offerings and proper behavior, punishing those who pollute waters, act disrespectfully, or ignore traditional prohibitions. Belief in Hantu Air remains particularly strong in rural fishing communities, riverside villages, and areas where daily life intimately connects with rivers and lakes. The tradition reflects centuries of cultural wisdom about water safety, environmental respect, and the dangers of aquatic environments—practical knowledge encoded in supernatural narrative framework. Unlike purely malevolent entities, Hantu Air can be benevolent toward those who show proper respect, provide offerings, and maintain traditional relationships with water bodies. Stories teach that coexistence is possible through propitiation and respectful behavior."
     },
     "etymology": {
-      "origin": "From Malay language: 'hantu' (ghost/spirit) + 'air' (water). The term has been used in oral traditions for centuries before written documentation.",
-      "meaning": "Literally translates to 'water ghost' or 'water spirit', referring to supernatural entities dwelling in aquatic environments",
-      "first_use": "Pre-Islamic oral traditions; first written documentation in early 20th century colonial ethnographic studies"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Water Spirit",
-      "subtype": "Malevolent Guardian",
-      "variant": "Malaysian-Indonesian"
+      "type": "| Description | Status |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "pontianak",
-        "name": "Pontianak",
-        "relationship": "related",
-        "description": "Another predatory female spirit in Malay folklore"
-      },
-      {
-        "id": "langsuir",
-        "name": "Langsuir",
-        "relationship": "related",
-        "description": "Female vampire spirit, part of Malay ghost taxonomy"
-      },
-      {
-        "id": "orang-bunian",
-        "name": "Orang Bunian",
-        "relationship": "parallel",
-        "description": "Dimensional beings, some dwell in water"
-      },
-      {
-        "id": "kelpie",
-        "name": "Kelpie",
-        "relationship": "parallel",
-        "description": "Scottish water spirit that shapeshifts and drowns victims"
-      },
-      {
-        "id": "rusalka",
-        "name": "Rusalka",
-        "relationship": "parallel",
-        "description": "Slavic water spirit that lures men to drowning"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 1.5,
-        "max": 1.75,
-        "unit": "meters",
-        "confidence": "medium"
-      },
-      "weight": {
-        "min": 45,
-        "max": 65,
-        "unit": "kilograms",
-        "confidence": "low",
-        "notes": "Variable due to shapeshifting nature"
-      },
-      "coloration": [
-        "pale luminescent skin (beautiful form)",
-        "greenish-gray corpse-like skin (true form)",
-        "long black hair with aquatic vegetation",
-        "translucent appearance in water",
-        "bluish tint in certain lighting"
-      ],
-      "features": [
-        {
-          "feature": "Beautiful female form",
-          "description": "Appears as exceptionally attractive young woman with long flowing hair, used to lure victims",
-          "frequency": "common"
-        },
-        {
-          "feature": "Elderly woman disguise",
-          "description": "Sometimes appears as old woman asking for help at water's edge",
-          "frequency": "occasional"
-        },
-        {
-          "feature": "Waterlogged true form",
-          "description": "Grotesque corpse-like appearance with bloated features and decomposing flesh when revealed",
-          "frequency": "rare"
-        },
-        {
-          "feature": "Aquatic vegetation",
-          "description": "Hair entwined with water plants, algae, and river debris",
-          "frequency": "always (true form)"
-        },
-        {
-          "feature": "Webbed extremities",
-          "description": "Webbed fingers and toes visible in true form",
-          "frequency": "occasional"
-        },
-        {
-          "feature": "Glowing eyes",
-          "description": "Eyes that glow with pale green or blue light underwater",
-          "frequency": "common"
-        },
-        {
-          "feature": "Water dripping constantly",
-          "description": "Perpetually wet, dripping water regardless of location",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Humanoid female form capable of dramatic shapeshifting. Primary manifestation as beautiful maiden with exceptional features designed to attract victims. True form reveals aquatic adaptation with partially decomposed appearance suggesting drowning victim. Skin described as cold, clammy, and slightly translucent with visible veins. Hair abnormally long, reaching past waist, constantly moving as if underwater even on land. Body temperature significantly below human normal."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shapeshifting",
-        "description": "Can transform between beautiful woman, elderly person, child, and true grotesque form",
-        "frequency": "always",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Drowning victims",
-        "description": "Primary method of killing—pulls victims underwater and holds them until drowned",
-        "frequency": "common",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Water manipulation",
-        "description": "Controls water currents, creates whirlpools, summons floods and dangerous rapids",
-        "frequency": "common",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Allure and enchantment",
-        "description": "Hypnotic voice and appearance that compels victims toward water",
-        "frequency": "common",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Aquatic breathing",
-        "description": "Can survive indefinitely underwater without need for air",
-        "frequency": "always",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Supernatural swimming",
-        "description": "Moves through water at impossible speeds, faster than any human swimmer",
-        "frequency": "always",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Water walking",
-        "description": "Can walk on water surface without breaking tension",
-        "frequency": "occasional",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Corpse reanimation",
-        "description": "Can possess or reanimate bodies of drowning victims",
-        "frequency": "rare",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Weather influence",
-        "description": "Can summon rain, storms, and fog to obscure hunting grounds",
-        "frequency": "occasional",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Invisibility in water",
-        "description": "Becomes effectively invisible when fully submerged",
-        "frequency": "common",
-        "evidence_level": "speculation"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "hostile",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "rivers with deep pools",
-        "secluded lakes",
-        "waterfalls",
-        "abandoned wells",
-        "irrigation ponds",
-        "murky swamps"
-      ],
-      "diet": "Does not consume physical food; believed to feed on life force or serve as punishment from water guardians",
-      "patterns": [
-        "Most active during twilight and night hours",
-        "Targets lone individuals near water",
-        "Particular threat to children and young men",
-        "More aggressive during flood season",
-        "Territorial—guards specific water body",
-        "Responds to offerings and prayers with decreased hostility",
-        "Attacks those who pollute or disrespect water",
-        "Can be appeased through traditional rituals"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Found throughout Malaysia and Indonesia in freshwater environments. Highest concentration in regions with traditional Malay cultural presence and strong water-based communities.",
-      "continents": ["Asia"],
-      "countries": ["Malaysia", "Indonesia", "Singapore (historical)", "Brunei", "Southern Thailand"],
-      "regions": [
-        "Peninsular Malaysia",
-        "Sabah and Sarawak",
-        "Sumatra",
-        "Java",
-        "Riau Islands",
-        "Kalimantan"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Sungai Perak",
-        "location": {
-          "description": "Perak River, longest river in Peninsular Malaysia",
-          "country": "Malaysia",
-          "region": "Perak",
-          "coordinates": {
-            "latitude": 4.7833,
-            "longitude": 100.9000,
-            "precision": "approximate"
-          }
-        },
-        "sighting_count": 67,
-        "peak_period": "1950s-present",
-        "notes": "Multiple drowning incidents attributed to Hantu Air; traditional communities perform regular appeasement rituals"
-      },
-      {
-        "name": "Tasik Chini",
-        "location": {
-          "description": "Lake Chini, second largest natural lake in Malaysia",
-          "country": "Malaysia",
-          "region": "Pahang",
-          "coordinates": {
-            "latitude": 3.4333,
-            "longitude": 102.9167,
-            "precision": "approximate"
-          }
-        },
-        "sighting_count": 42,
-        "peak_period": "1960s-1990s",
-        "notes": "Associated with Orang Asli legends; reported sightings by fishermen"
-      },
-      {
-        "name": "Sungai Kinabatangan",
-        "location": {
-          "description": "Kinabatangan River, Sabah",
-          "country": "Malaysia",
-          "region": "Sabah",
-          "coordinates": {
-            "latitude": 5.5500,
-            "longitude": 118.1667,
-            "precision": "approximate"
-          }
-        },
-        "sighting_count": 38,
-        "peak_period": "1970s-present",
-        "notes": "Indigenous communities report regular encounters; associated with local water spirits"
-      },
-      {
-        "name": "Danau Toba",
-        "location": {
-          "description": "Lake Toba, North Sumatra",
-          "country": "Indonesia",
-          "region": "North Sumatra",
-          "coordinates": {
-            "latitude": 2.6833,
-            "longitude": 98.8667,
-            "precision": "approximate"
-          }
-        },
-        "sighting_count": 51,
-        "peak_period": "1980s-present",
-        "notes": "Batak communities maintain traditional beliefs; tourism has increased reported sightings"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Pre-Islamic era",
+        "date": "Unknown",
         "circa": true,
-        "source": "Oral traditions predating written Malay literature"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Monsoon season (November-February)",
-          "description": "Increased activity during heavy rains and flooding"
-        },
-        {
-          "period": "New moon phases",
-          "description": "Higher incident reports during darkest nights"
-        }
-      ],
-      "seasonal_patterns": "Most active during monsoon season when water levels are high; also active during droughts when people venture to deeper, more dangerous water sources"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Hantu Air has roots in pre-Islamic animistic traditions of the Malay archipelago, where water bodies were believed to house powerful guardian spirits. With the arrival of Islam, these beliefs syncretized with Islamic concepts of jinn, creating the current understanding of water spirits within Islamic-Malay cosmology.",
-      "earliest_accounts": "Oral traditions dating back centuries in Malay and indigenous communities. Written accounts emerge in early 20th century colonial ethnographic studies.",
-      "folklore_connections": "Connected to broader Southeast Asian water spirit traditions including Indonesian Nyi Roro Kidul, Thai Mae Nak, and animistic river guardian beliefs throughout the region."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Pre-1400s",
-        "event": "Pre-Islamic water spirit traditions",
-        "significance": "Animistic beliefs in water guardians prevalent among proto-Malay peoples",
-        "source": "Archaeological and anthropological inference"
-      },
-      {
-        "date": "1400s-1500s",
-        "event": "Islamic syncretism",
-        "significance": "Water spirits reinterpreted as jinn within Islamic framework",
-        "source": "Early Malay literary texts"
-      },
-      {
-        "date": "1900",
-        "event": "Skeat's documentation",
-        "significance": "W.W. Skeat documents water spirits in 'Malay Magic'",
-        "source": "Skeat, W.W. (1900). Malay Magic"
-      },
-      {
-        "date": "1925",
-        "event": "Winstedt's analysis",
-        "significance": "R.O. Winstedt provides systematic study of Malay supernatural beings",
-        "source": "Winstedt, R.O. (1925). Shaman, Saiva and Sufi"
-      },
-      {
-        "date": "1957",
-        "event": "Post-independence documentation",
-        "significance": "Malaysian independence leads to renewed interest in indigenous folklore",
-        "source": "Various Malaysian folklore collections"
-      },
-      {
-        "date": "1985",
-        "event": "Sungai Perak incidents",
-        "significance": "Series of drownings attributed to Hantu Air leads to traditional ceremonies",
-        "source": "Local newspaper reports, community records"
-      },
-      {
-        "date": "2000s-present",
-        "event": "Digital era resurgence",
-        "significance": "Social media enables sharing of contemporary encounters; urban legends spread",
-        "source": "Online forums, social media reports"
-      }
-    ],
-    "modern_era": "Contemporary belief in Hantu Air persists strongly in rural areas and traditional fishing communities. Urban Malaysians generally treat it as folklore, though respect for water bodies remains culturally ingrained. Modern incidents are often explained through rational means, but traditional communities continue to perform appeasement rituals and maintain protective practices."
+    "timeline": []
   },
-
   "sightings": {
     "statistics": {
-      "total_documented": 312,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 287,
-      "debunked": 25,
-      "date_range": {
-        "earliest": "1890s",
-        "latest": "2026"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "hantu-air-sighting-1985-perak",
-        "name": "Perak River Drownings",
-        "date": {
-          "value": "1985-08",
-          "precision": "month"
-        },
-        "location": {
-          "description": "Sungai Perak, near Kuala Kangsar",
-          "country": "Malaysia",
-          "region": "Perak",
-          "locality": "Kuala Kangsar District",
-          "coordinates": {
-            "latitude": 4.7833,
-            "longitude": 100.9000,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 3,
-          "types": ["Local fishermen"],
-          "credibility_factors": ["Multiple independent witnesses", "Community corroboration", "Traditional knowledge"]
-        },
-        "description": "Three fishermen working near dawn reported seeing a beautiful woman standing waist-deep in the river, calling out for help. When one fisherman approached in his boat, the woman suddenly appeared behind him in the water with a grotesque, corpse-like face. He fell into the river and would have drowned if his companions had not pulled him out. The man was hospitalized for shock and pneumonia. A series of drownings occurred in the same area over the following weeks, leading village elders to perform traditional water appeasement ceremonies.",
-        "conditions": {
-          "weather": "Misty morning after heavy overnight rain",
-          "visibility": "Poor (pre-dawn fog)",
-          "time_of_day": "Dawn (approximately 6:00 AM)",
-          "duration": "Several minutes"
-        },
-        "evidence": [
-          "Multiple witness testimony",
-          "Medical records of rescued fisherman",
-          "Community documentation of ritual response",
-          "Local newspaper coverage"
-        ],
-        "credibility": {
-          "rating": "medium",
-          "factors": [
-            "Multiple witnesses with consistent accounts",
-            "Cultural context supports phenomenon",
-            "Physical effects on witness (shock, hospitalization)",
-            "Series of drownings correlates with sighting"
-          ],
-          "notes": "Witnesses were experienced river workers familiar with the area. Event led to documented community response including traditional ceremonies."
-        },
-        "sources": [
-          "Local newspaper: Utusan Malaysia, August 1985",
-          "Community oral history records",
-          "Mohd. Taib Osman folklore collection references"
-        ],
-        "featured": true
-      },
-      {
-        "id": "hantu-air-sighting-1996-tasik-chini",
-        "name": "Lake Chini Tourist Incident",
-        "date": {
-          "value": "1996-11-12",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "Tasik Chini, Pahang",
-          "country": "Malaysia",
-          "region": "Pahang",
-          "locality": "Chini",
-          "coordinates": {
-            "latitude": 3.4333,
-            "longitude": 102.9167,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 5,
-          "types": ["Tourists", "Local guide"],
-          "credibility_factors": ["Multiple witnesses including skeptical outsiders", "Guide with traditional knowledge", "Photographic attempt"]
-        },
-        "description": "A group of tourists on a boat tour witnessed what appeared to be a young woman in traditional dress standing on the water surface approximately 50 meters from shore. The local guide immediately ordered everyone away from the side of the boat and began reciting protective prayers. One tourist attempted to photograph the figure, but the camera malfunctioned. The figure reportedly glided across the water surface before sinking beneath it without ripples. The guide explained this was Hantu Air and that the lake was known for such manifestations, particularly during the monsoon season.",
-        "conditions": {
-          "weather": "Overcast, light rain",
-          "visibility": "Moderate (afternoon, gray skies)",
-          "time_of_day": "Late afternoon (approximately 5:30 PM)",
-          "duration": "Approximately 2 minutes"
-        },
-        "evidence": [
-          "Multiple witness statements",
-          "Failed photographic attempt (camera malfunction)",
-          "Guide's cultural documentation",
-          "Tourist written accounts"
-        ],
-        "credibility": {
-          "rating": "medium",
-          "factors": [
-            "Multiple witnesses including foreign tourists",
-            "Guide's traditional knowledge adds context",
-            "Camera malfunction possibly coincidental",
-            "Water walking could be optical illusion",
-            "No physical evidence obtained"
-          ],
-          "notes": "Interesting case due to presence of skeptical tourists who were convinced by the experience. Guide's reaction and knowledge suggest genuine cultural belief rather than tourist fabrication."
-        },
-        "sources": [
-          "Tourist written accounts (archived)",
-          "Tour company records",
-          "Local guide testimony"
-        ],
-        "featured": true
-      },
-      {
-        "id": "hantu-air-sighting-2003-kinabatangan",
-        "name": "Kinabatangan River Child Rescue",
-        "date": {
-          "value": "2003-03-15",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "Sungai Kinabatangan, near Sukau",
-          "country": "Malaysia",
-          "region": "Sabah",
-          "locality": "Kinabatangan District",
-          "coordinates": {
-            "latitude": 5.5500,
-            "longitude": 118.1667,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 8,
-          "types": ["Village residents", "Child victim"],
-          "credibility_factors": ["Multiple witnesses", "Physical rescue occurred", "Child's consistent testimony"]
-        },
-        "description": "A 7-year-old boy was found standing at the river's edge at night, appearing to be in a trance. His mother noticed him missing and found him about to step into the water. She grabbed him and screamed for help. Multiple villagers responded and reported seeing a pale figure with glowing eyes just below the water surface where the boy was headed. The figure retreated when the group began praying loudly. The boy later described being called by a 'beautiful auntie' who promised to show him something wonderful in the water. The area was known for drowning incidents, and elders stated this matched traditional Hantu Air behavior.",
-        "conditions": {
-          "weather": "Clear night",
-          "visibility": "Dark (approximately 11:00 PM)",
-          "time_of_day": "Late night",
-          "duration": "Several minutes of confrontation"
-        },
-        "evidence": [
-          "Multiple witness testimony",
-          "Child's consistent account",
-          "Traditional knowledge correlation",
-          "Location history of drownings"
-        ],
-        "credibility": {
-          "rating": "medium",
-          "factors": [
-            "Child genuinely endangered",
-            "Multiple witnesses saw figure in water",
-            "Behavior matches traditional accounts",
-            "Cultural context strongly supports interpretation",
-            "Could be explained by sleepwalking/trance state"
-          ],
-          "notes": "Particularly significant case due to potential harm to child. Whether supernatural or psychological, the incident reflects genuine cultural belief and protective response."
-        },
-        "sources": [
-          "Village community records",
-          "Child welfare documentation",
-          "Anthropological field notes"
-        ],
-        "featured": true
-      },
-      {
-        "id": "hantu-air-sighting-2015-danau-toba",
-        "name": "Lake Toba Swimmer Encounter",
-        "date": {
-          "value": "2015-07-22",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "Danau Toba, Samosir Island",
-          "country": "Indonesia",
-          "region": "North Sumatra",
-          "locality": "Samosir",
-          "coordinates": {
-            "latitude": 2.6833,
-            "longitude": 98.8667,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Tourist swimmer"],
-          "credibility_factors": ["Physical effects", "Detailed account", "Location known for similar reports"]
-        },
-        "description": "A Malaysian tourist swimming alone in late afternoon felt something grab his ankle and pull him underwater. He described seeing a female figure with long black hair and pale skin moving through the water with unnatural speed. The figure's eyes were described as glowing pale blue. He struggled and managed to surface, swimming frantically to shore. He had bruising on his ankle consistent with being grabbed. Local residents confirmed the location was known for 'hantu air' and warned against swimming alone, especially near sunset. The witness had no prior knowledge of local legends.",
-        "conditions": {
-          "weather": "Clear, warm afternoon",
-          "visibility": "Good underwater visibility",
-          "time_of_day": "Late afternoon (approximately 5:00 PM)",
-          "duration": "Less than one minute"
-        },
-        "evidence": [
-          "Witness testimony",
-          "Physical bruising on ankle",
-          "Photographic evidence of bruises",
-          "Local knowledge corroboration"
-        ],
-        "credibility": {
-          "rating": "low-medium",
-          "factors": [
-            "Single witness",
-            "Physical evidence (bruising) could have natural causes",
-            "Panic and fear may have influenced perception",
-            "Underwater visibility can create illusions",
-            "Location has traditional reputation",
-            "Witness unfamiliar with local legends initially"
-          ],
-          "notes": "While the physical evidence is ambiguous, the witness's unfamiliarity with local legends adds some credibility. Could be explained by aquatic animal, underwater vegetation, or panic-induced misperception."
-        },
-        "sources": [
-          "Witness social media account",
-          "Local tourism office records",
-          "Medical documentation of bruising"
-        ],
-        "featured": false
-      }
-    ],
+    "notable": [],
     "database_path": "./sightings/"
   },
-
   "evidence": {
-    "physical": [
-      {
-        "id": "hantu-air-evidence-drowning-patterns",
-        "type": "statistical analysis",
-        "name": "Anomalous drowning patterns",
-        "date": "Ongoing",
-        "description": "Statistical analysis of drowning incidents in traditional 'haunted' water bodies shows some unusual patterns including clustering in specific locations and times that align with traditional Hantu Air active periods.",
-        "location": "Various Malaysian rivers and lakes",
-        "status": "disputed",
-        "analysis": "While patterns exist, they can be explained by natural factors such as dangerous currents, seasonal conditions, and human behavior patterns. Traditional communities interpret anomalies as spirit activity.",
-        "source": "Various drowning statistics, folklore research"
-      },
-      {
-        "id": "hantu-air-evidence-ritual-sites",
-        "type": "cultural artifacts",
-        "name": "Water appeasement ritual sites",
-        "date": "Historical to present",
-        "description": "Archaeological and ethnographic documentation of ritual sites at water bodies where offerings have been made to water spirits for centuries, indicating long-standing belief system.",
-        "location": "Throughout Malaysia and Indonesia",
-        "status": "verified",
-        "analysis": "While physical evidence of belief system is undeniable, this does not verify existence of the entity itself, only the cultural significance of the belief.",
-        "source": "Archaeological surveys, ethnographic studies"
-      }
-    ],
-    "photographic": [
-      {
-        "id": "hantu-air-evidence-anomalous-photos",
-        "type": "photographs",
-        "name": "Various claimed photographs",
-        "date": "1990s-present",
-        "description": "Numerous photographs claiming to show pale figures in or near water, typically with poor quality or ambiguous subjects",
-        "status": "disputed",
-        "analysis": "Most can be explained by pareidolia, light reflections, mist, or digital artifacts. No photograph provides conclusive evidence.",
-        "source": "Various amateur photographers"
-      }
-    ],
-    "testimonial": [
-      {
-        "id": "hantu-air-evidence-consistent-accounts",
-        "type": "witness testimony",
-        "name": "Consistent cross-cultural accounts",
-        "description": "Remarkably consistent descriptions across different regions, time periods, and cultural groups regarding appearance and behavior",
-        "status": "documented",
-        "analysis": "Consistency suggests either genuine phenomenon or strong cultural transmission of folklore motifs. Anthropologists lean toward cultural explanation.",
-        "source": "Folklore collections, ethnographic interviews"
-      }
-    ]
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "paranormal": [
-      {
-        "name": "Jinn water manifestation",
-        "description": "Within Islamic-Malay cosmology, Hantu Air represents jinn that have chosen water as their domain. These jinn may be malevolent or testing human faith and respect for creation.",
-        "proponents": ["Traditional Islamic scholars", "Malay spiritual practitioners"],
-        "evidence_cited": ["Quranic references to jinn", "Consistency with Islamic cosmology", "Efficacy of religious protection"]
-      },
-      {
-        "name": "Drowning victim spirits",
-        "description": "Spirits of those who drowned and remain bound to the water where they died, seeking company or revenge",
-        "proponents": ["Animistic tradition holders", "Some folk beliefs"],
-        "evidence_cited": ["Correlation with drowning locations", "Appearance as waterlogged corpses", "Historical drowning sites"]
-      },
-      {
-        "name": "Guardian spirit gone malevolent",
-        "description": "Ancient water guardian spirits that have become corrupted or angered by human disrespect toward water bodies",
-        "proponents": ["Anthropologists of Southeast Asian religion", "Indigenous knowledge keepers"],
-        "evidence_cited": ["Pre-Islamic animistic traditions", "Appeasement rituals reduce incidents", "Cultural transmission patterns"]
-      }
-    ],
-    "scientific": [
-      {
-        "name": "Drowning risk psychology",
-        "description": "Psychological phenomena including panic, hypoxia, and near-drowning experiences create hallucinations interpreted through cultural lens",
-        "proponents": ["Psychologists", "Medical researchers"],
-        "evidence_cited": ["Oxygen deprivation effects", "Panic-induced perception changes", "Near-death experience research"]
-      },
-      {
-        "name": "Dangerous water conditions",
-        "description": "Natural hazards like whirlpools, undertows, and hidden currents are personified as malevolent entities to warn of real dangers",
-        "proponents": ["Skeptics", "Safety educators"],
-        "evidence_cited": ["Correlation with actually dangerous water bodies", "Functional role of cautionary tales", "Hydrological analysis"]
-      },
-      {
-        "name": "Cultural transmission and pareidolia",
-        "description": "Strong cultural belief creates expectation that interprets natural phenomena (reflections, mist, shadows) as supernatural",
-        "proponents": ["Folklorists", "Cognitive psychologists"],
-        "evidence_cited": ["Cultural consistency", "Pareidolia in ambiguous stimuli", "Expectation bias research"]
-      }
-    ],
-    "skeptical": [
-      {
-        "name": "Misidentification and environmental factors",
-        "description": "Combination of poor lighting, water reflections, mist, and unfamiliar sounds misinterpreted as supernatural",
-        "proponents": ["Skeptical investigators", "Rationalists"],
-        "evidence_cited": ["Reproducible optical illusions in water environments", "Sound distortion near water", "No physical evidence"]
-      },
-      {
-        "name": "Social control mechanism",
-        "description": "Folklore serves to keep people (especially children) away from dangerous water bodies, functioning as safety education",
-        "proponents": ["Functionalist anthropologists", "Sociologists"],
-        "evidence_cited": ["Protective function of belief", "Similar patterns worldwide", "Reduction in risky behavior"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Pre-Islamic animistic water spirit worship",
-        "Islamic-Malay jinn cosmology integration",
-        "Orang Asli (indigenous) water guardian beliefs",
-        "Coastal fishing community protective rituals",
-        "Rice farming water blessing ceremonies"
-      ],
-      "stories": [
-        "The Beautiful Woman at the River Bend (cautionary tale)",
-        "The Fisherman Who Respected the Waters (protective tale)",
-        "The Child Who Learned to Pray at Water's Edge (Islamic teaching tale)",
-        "The Village Saved by Offerings (appeasement narrative)"
-      ],
-      "beliefs": "Hantu Air is viewed with fear but also respect. Many believe that proper reverence toward water bodies, including prayers, offerings, and avoiding pollution, can prevent attacks. Some communities view certain water spirits as necessary guardians that only punish the disrespectful."
-    },
-    "indigenous": {
-      "cultures": [
-        "Orang Asli groups (Peninsular Malaysia)",
-        "Kadazan-Dusun (Sabah)",
-        "Iban and Bidayuh (Sarawak)",
-        "Batak (North Sumatra)",
-        "Various Dayak peoples (Kalimantan)"
-      ],
-      "significance": "Indigenous communities maintain their own water spirit traditions that predate Islamization. These beliefs are often more complex, viewing water spirits as neither purely malevolent nor benevolent, but as powerful beings requiring proper relationship and respect.",
-      "sensitivity_note": "Indigenous water spirit beliefs should not be conflated with Islamic-Malay hantu traditions. Each community has distinct cosmologies that deserve respect and accurate representation.",
-      "respect_guidelines": "Consult local communities before conducting research near sacred water bodies. Do not disturb ritual sites. Respect traditional access restrictions to certain water areas."
-    },
-    "islamic_integration": {
-      "context": "Within Malaysian Islamic practice, belief in jinn is theologically supported. Many Muslims interpret Hantu Air as a type of jinn that has chosen an aquatic habitat. This allows traditional beliefs to coexist with Islamic faith.",
-      "religious_perspective": "Islamic scholars in Malaysia generally accept the existence of jinn while cautioning against excessive fear or shirk (associating partners with Allah). Proper Islamic practice including prayer, Quranic recitation, and trust in Allah is considered the best protection.",
-      "protective_practices": [
-        "Reciting Ayat Kursi (Throne Verse) before entering water",
-        "Bismillah (In the name of Allah) when approaching water",
-        "Avoiding swimming alone or at night",
-        "Respecting water bodies and avoiding pollution",
-        "Seeking permission from water guardians before fishing or swimming"
-      ]
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Sejarah Melayu (Malay Annals) - historical text with supernatural elements",
-        "Various Malay horror short stories and anthologies",
-        "Modern Malaysian horror novels featuring Hantu Air"
-      ],
-      "film_tv": [
-        "Jangan Pandang Belakang (Malaysian horror film, 2007)",
-        "Hantu Kak Limah series (horror comedy)",
-        "Various Malaysian TV supernatural drama series",
-        "Indonesian horror films featuring water spirits"
-      ],
-      "oral_tradition": [
-        "Kampung (village) storytelling sessions",
-        "Elder warnings to children",
-        "Fisherman cautionary tales",
-        "School folklore sharing"
-      ],
-      "modern_media": [
-        "Social media horror story threads",
-        "YouTube paranormal investigation channels",
-        "Malaysian horror podcasts",
-        "Online horror story communities"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Walter William Skeat",
-        "affiliation": "Colonial ethnographer",
-        "contribution": "First comprehensive English documentation of Malay supernatural beliefs including water spirits in 'Malay Magic' (1900)",
-        "period": "1890s-1900s"
-      },
-      {
-        "name": "Richard Olof Winstedt",
-        "affiliation": "Colonial scholar and Malay studies expert",
-        "contribution": "Systematic analysis of Malay supernatural taxonomy and Islamic-animistic syncretism",
-        "period": "1920s-1960s"
-      },
-      {
-        "name": "Mohd. Taib Osman",
-        "affiliation": "Universiti Malaya",
-        "contribution": "Leading Malaysian scholar documenting Malay folklore in post-independence period; integrated indigenous and academic perspectives",
-        "period": "1960s-2000s"
-      },
-      {
-        "name": "Carol Laderman",
-        "affiliation": "Anthropologist",
-        "contribution": "Ethnographic work on Malay spirit beliefs and healing practices in rural communities",
-        "period": "1980s-1990s"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "Dewan Bahasa dan Pustaka",
-        "url": "https://www.dbp.gov.my",
-        "focus": "Malaysian language and cultural heritage preservation; publishes folklore collections"
-      },
-      {
-        "name": "Malaysian Folklore Society",
-        "focus": "Documentation and preservation of Malaysian oral traditions and supernatural beliefs"
-      },
-      {
-        "name": "Institute of Ethnic Studies (KITA)",
-        "url": "https://www.ukm.my/kita",
-        "focus": "Malaysian ethnic and cultural studies including indigenous beliefs"
-      }
-    ],
-    "ongoing_studies": "Contemporary research focuses on cultural preservation of oral traditions, psychological explanations for supernatural experiences, and the role of folklore in environmental conservation and water safety education."
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "safety": {
-    "traditional_protections": [
-      {
-        "method": "Islamic prayers and Quranic recitation",
-        "description": "Reciting protective verses, particularly Ayat Kursi, before entering water",
-        "effectiveness": "Culturally believed to be highly effective"
-      },
-      {
-        "method": "Ritual offerings",
-        "description": "Placing offerings (flowers, incense, food) at water's edge to appease spirits",
-        "effectiveness": "Traditional practice, efficacy based on belief system"
-      },
-      {
-        "method": "Avoid dangerous times",
-        "description": "Not swimming alone, at night, during new moon, or at dusk/dawn",
-        "effectiveness": "Practically effective as these are genuinely more dangerous times"
-      },
-      {
-        "method": "Respectful behavior",
-        "description": "Avoiding pollution, loud noises, or disrespectful actions near water",
-        "effectiveness": "Environmentally beneficial regardless of supernatural belief"
-      },
-      {
-        "method": "Seeking permission",
-        "description": "Speaking to the water spirit and asking permission before swimming or fishing",
-        "effectiveness": "Psychologically prepares individual and shows cultural respect"
-      }
-    ],
-    "practical_advice": [
-      "Never swim alone in unfamiliar water bodies",
-      "Avoid swimming at night or in poor visibility",
-      "Research local water conditions and dangers before swimming",
-      "Respect local customs and warnings about specific water bodies",
-      "Learn about actual water hazards (currents, depth changes, etc.)",
-      "Respect indigenous sacred sites and restricted areas"
-    ]
-  },
-
-  "sources": [
-    {
-      "id": "skeat-1900",
-      "type": "book",
-      "title": "Malay Magic: An Introduction to the Folklore and Popular Religion of the Malay Peninsula",
-      "authors": ["Walter William Skeat"],
-      "publication": "Macmillan and Co.",
-      "date": "1900",
-      "location": "London"
-    },
-    {
-      "id": "winstedt-1961",
-      "type": "book",
-      "title": "The Malay Magician: Being Shaman, Saiva, and Sufi",
-      "authors": ["Richard Olof Winstedt"],
-      "publication": "Routledge & Kegan Paul",
-      "date": "1961",
-      "location": "London"
-    },
-    {
-      "id": "osman-1989",
-      "type": "book",
-      "title": "Malay Folk Beliefs: An Integration of Disparate Elements",
-      "authors": ["Mohd. Taib Osman"],
-      "publication": "Dewan Bahasa dan Pustaka",
-      "date": "1989",
-      "location": "Kuala Lumpur"
-    },
-    {
-      "id": "laderman-1991",
-      "type": "book",
-      "title": "Taming the Wind of Desire: Psychology, Medicine, and Aesthetics in Malay Shamanistic Performance",
-      "authors": ["Carol Laderman"],
-      "publication": "University of California Press",
-      "date": "1991",
-      "isbn": "978-0520069695"
-    }
-  ]
+  "sources": []
 }
